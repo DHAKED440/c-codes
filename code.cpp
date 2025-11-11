@@ -2,6 +2,10 @@
 using namespace std;
 
 int main () {
-    cout<< "HELLO WORLD" << endl;
-    return 0;
+    int a,b;
+    cout << "Enter the number: " << endl;
+    cin >> a >> b ;
+    int sum=a+b;
+    cout << "sum = " << sum << endl;
+        return 0;
 }
